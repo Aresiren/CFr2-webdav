@@ -4,6 +4,9 @@ export interface Env {
   USERNAME: string;
   PASSWORD: string;
   BUCKET_NAME: string;
+	IP_WHITELIST_SWITCH: string;
+	IP_WHITELIST_REGEX: string; 
+	
 }
 
 export interface CacheableResponse {
